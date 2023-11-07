@@ -1,2 +1,2 @@
 # my-target
-Clash of clan guest web
+My target clan page
