@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mytarget Team Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to my target page</h1>
+        <p>Join our Clan and Clash on!</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#wars">Wars</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h2>About Our Clan 7th Anniversary </h2>
+        <p>We are a dedicated Clash of Clans with a passion for winning freaking wars.</p>
+        <div class="image-container">
+            <img src="https://media.discordapp.net/attachments/926360372376645662/1150772812529799249/image0.png" alt="Clan Logo">
+        <button id="party-button">Free Chocolate Cake</button>
+        
+        <script>
+    // Button //
+    var partyButton = document.getElementById('party-button');
+
+    // CallBack //
+    partyButton.addEventListener('click', function () {
+        // Variable //
+        var confettiSettings = {
+            target: 'confetti-canvas',
+        };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+    });
+</script>
+
+        </div>
+       
+    </section>
+    
+    <section id="members">
+        <h2>
+            anniversary date
+        </h2>
+        
+            
+            <li>September 17 - 2023</li>
+        
+    </section>
+    
+    <section id="wars">
+        
+        <p>Summary
+        our recent war results and strategies here.</p>
+        <img src="">
+         
+        <h2>Damm!</h>
+        
+        <img src="https://media.discordapp.net/attachments/926360372376645662/1163768674298114119/Screenshot_2023_1017_105156.jpg?ex=6540c709&is=652e5209&hm=2ee0bcf9e705b61ed80d3223c4fd3d303f9077016923e1ae42f5068500944678&">
+    </section>
+    
+    <section id="capital-base">
+        <h2>Capital Base</h2>
+        <p>Explore!! our clan's impressive capital base 
+        </p>
+        <img src="https://media.discordapp.net/attachments/926360372376645662/1163795062648492032/Screenshot_20231017_163219_com.supercell.clashofclans.jpg?ex=6540df9d&is=652e6a9d&hm=5980cf44fe2b116c394840b4860a1ab413aaac11b3392b2d953b5e3370e62ea9&" alt="Capital Base Screenshot">
+        <h2>And</h2>
+        <p>
+        view our clan members' generous donations</p>
+        <img src="https://media.discordapp.net/attachments/926360372376645662/1163795062946275338/Screenshot_20231017_163236_com.supercell.clashofclans.jpg?ex=6540df9d&is=652e6a9d&hm=00a5d6a6e80d32fa7964dc45e517dbc6412a04315120f541db60e6267f8d0f3a&">
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 - my target</p>
+    </footer>
+</body>
+</html>
+
+<style>
+/* styles.css */
+
+/* Set the background color to black and text color to white */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Dark gray background for the header */
+}
+
+/* Style section headers */
+h2 {
+    color: #FF9900; /* Orange text color for section headers */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 8px;
+}
+
+/* Style the links in the navigation menu */
+nav a {
+    text-decoration: none;
+    color: #FF9900; /* Orange link color */
+}
+
+/* Center the image within the section */
+.image-container {
+    text-align: center;
+}
+
+/* Style the image if needed */
+.image-container img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container width */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    display: block; /* Remove any default inline spacing */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Dark gray background for the footer */
+}
+/* styles.css */
+
+/* Center the images within the "Capital Base" section */
+#capital-base {
+    text-align: center;
+}
+
+/* Style the images if needed */
+#capital-base img {
+    max-width: 100%; /* Make sure the images don't exceed their container width */
+    margin: 10px; /* Add some margin for spacing between the images */
+    display: inline-block; /* Display the images as inline-block elements to align them horizontally */
+}
+
+
+/* styles.css */by
+
+/* Center the image within the "War Results" section */
+#wars {
+    text-align: center;
+}
+
+/* Style the image if needed */
+#wars img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container width */
+    margin: 10px auto; /* Center the image horizontally and add some margin for spacing */
+    display: block; /* Remove any default inline spacing */
+}
+</style>
+
+
+  
